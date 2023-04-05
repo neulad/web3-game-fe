@@ -12,11 +12,11 @@ ReactDOM.createRoot(document.getElementById("root")).render(
     <GlobalContextProvider>
       <OnboardModal />
       <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/create-battle" element={<CreateBattle />} />
-        <Route path="/join-battle" element={<JoinBattle />} />
-        <Route path="/battleground" element={<BattleGround />} />
-        <Route path="/battle/:battleName" element={<Battle />} />
+        <Route path="/web3-game" element={<Home />} />
+        <Route path="/web3-game/create-battle" element={<CreateBattle />} />
+        <Route path="/web3-game/join-battle" element={<JoinBattle />} />
+        <Route path="/web3-game/battleground" element={<BattleGround />} />
+        <Route path="/web3-game/battle/:battleName" element={<Battle />} />
       </Routes>
     </GlobalContextProvider>
   </BrowserRouter>
